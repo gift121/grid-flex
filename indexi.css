@@ -8,13 +8,14 @@
 body{
     background: hsl(0, 0%, 7%);
     color: white;
-    width: 800px;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
+    align-items: center; 
     margin: auto;
+    margin-top: 30%;
 }
 .box{
+    justify-content: center;
+    /* align-items: center; */
     display: grid;
     margin: auto;
     grid-template-areas: 
@@ -22,11 +23,9 @@ body{
     'c d d'
     'c e e'
     ;
-    gap: 10px;
-    margin-top: 30%;
 }
 .box  div{
-    padding: 2em;
+    padding: 5em;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -36,6 +35,7 @@ body{
 .on{
     background-color: orangered;
     grid-area: a;
+    
 }
 .tw{
     background: orange;
@@ -48,6 +48,7 @@ body{
 .fou{
     background:rgb(3, 90, 3);
     grid-area: d;
+    
 }
 .fiv{
     background: rgb(106, 106, 245);
